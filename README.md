@@ -3,4 +3,4 @@
 # Bild And Use This 
 
 # Dashboard
-![alt text](https://github.com/dkkundu/Blood_Lagbe_Java/blob/main/priject/Dashboard.png?raw=true)
+![alt text](https://github.com/dkkundu/Blood_Lagbe_Java/blob/main/Project/Dashboard.png?raw=true)
