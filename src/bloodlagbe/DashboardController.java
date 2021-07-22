@@ -43,13 +43,25 @@ public class DashboardController implements Initializable {
     }
 
     @FXML
-    void btnMe(ActionEvent event) {
-        System.out.println("Clicked btnMe");
+    void btnMe(ActionEvent event) throws IOException {
+        System.out.println("Clicked BTN ABOUT ME");
+        Parent root = FXMLLoader.load(getClass().getResource("/AboutMe/AboutMe.fxml"));
+        Scene scene = new Scene(root);
+        Stage stage = new Stage(StageStyle.DECORATED);
+        stage.setTitle("ABOUT ME");
+        stage.setScene(scene);
+        stage.show();
     }
 
     @FXML
-    void btnSearch(ActionEvent event) {
+    void btnSearch(ActionEvent event) throws IOException {
         System.out.println("Clicked btnSearch");
+        Parent root = FXMLLoader.load(getClass().getResource("/FindDoner/FindDoner.fxml"));
+        Scene scene = new Scene(root);
+        Stage stage = new Stage(StageStyle.DECORATED);
+        stage.setTitle("Find Doner");
+        stage.setScene(scene);
+        stage.show();
     }
     
     @Override

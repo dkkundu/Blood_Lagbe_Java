@@ -9,7 +9,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="577.0" prefWidth="988.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="addRecord.AddRecordController">
    <children>
-      <Pane prefHeight="147.0" prefWidth="980.0" style="-fx-background-color: #0786D8;">
+      <Pane prefHeight="147.0" prefWidth="988.0" style="-fx-background-color: #0786D8;">
          <children>
             <Label layoutX="93.0" layoutY="46.0" text="BLOOD LAGBE" textFill="WHITE">
                <font>

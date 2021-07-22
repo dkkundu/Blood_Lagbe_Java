@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="617.0" prefWidth="934.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="AboutMe.AboutMeController">
+   <children>
+      <Pane prefHeight="155.0" prefWidth="983.0" style="-fx-background-color: #0786D8;">
+         <children>
+            <Label layoutX="106.0" layoutY="62.0" text="BLOOD LAGBE" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="53.0" layoutY="179.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView accessibleRole="DECREMENT_BUTTON" blendMode="COLOR_BURN" fitHeight="200.0" fitWidth="200.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true" rotate="-45.0">
+               <image>
+                  <Image url="@../image/me.png" />
+               </image>
+               <effect>
+                  <InnerShadow choke="0.36" height="93.86" radius="40.3575" width="69.57">
+                     <color>
+                        <Color red="0.26924949884414673" green="0.38392218947410583" blue="0.8947368264198303" />
+                     </color>
+                  </InnerShadow>
+               </effect>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="361.0" layoutY="223.0" prefHeight="360.0" prefWidth="583.0" style="-fx-background-color: #D5D3D3;">
+         <children>
+            <Label layoutX="39.0" layoutY="58.0" text="Name : ">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="146.0" layoutY="190.0" text="dkkundu00@gmail.com">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="146.0" layoutY="125.0" text="01843070993">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="146.0" layoutY="58.0" text="Dipto Kumar Kundu ">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="267.0" text="GitHub : ">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="190.0" text="Email : ">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="125.0" text="Phone : ">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="146.0" layoutY="267.0" text="https://github.com/dkkundu">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
