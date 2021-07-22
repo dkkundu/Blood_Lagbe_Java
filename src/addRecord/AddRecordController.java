@@ -84,6 +84,13 @@ public class AddRecordController implements Initializable {
                 alert.setHeaderText("Member");
                 alert.setContentText("Record Addedd Successfully");
                 alert.showAndWait();
+                
+                textName.setText("");
+                textPhone.setText("");
+                textBloodGroup.setText("");
+                textAddress.setText("");
+                textName.requestFocus();
+                
              }
              else
              {
